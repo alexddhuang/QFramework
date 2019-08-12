@@ -46,7 +46,7 @@ namespace QF
 
 	    protected override void OnBegin()
 	    {
-		    UniRx.IObservable<string> www = null;
+		    IObservable<string> www = null;
 
 		    if (User.Logined)
 		    {
